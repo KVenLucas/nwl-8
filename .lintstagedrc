@@ -1,8 +1,6 @@
 {
-  "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx}": [
       "yarn run lint:format",
       "yarn lint:fix"
     ]
-  }
 }
